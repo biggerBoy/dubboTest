@@ -1,4 +1,5 @@
-/target
-/out
+target
+out
 .idea
 .iml
+.log
