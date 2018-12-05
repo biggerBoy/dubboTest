@@ -22,7 +22,7 @@ public class DataController {
         String code = resultSet.getCode();
         Student stu = resultSet.getT();
         String nameBack = stu.getName();
-        logger.info("+++++++++返回码："+code+",name:"+nameBack);
+        logger.info("+++++++++返回码是："+code+",name:"+nameBack);
         return "success";
     }
 }
