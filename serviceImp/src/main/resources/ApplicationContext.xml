@@ -12,7 +12,7 @@
     <!--目的：找到注册中心，告诉他我是谁，端口是多少-->
 
     <!--1、配置别名，目的是在后台好区分到底是谁,name可以随便写,最后语义化-->
-    <dubbo:application name="test1"/>
+    <dubbo:application name="dubbo-server"/>
 
     <!--2、zookeeper注册中心;address注册中心的地址;protocol注册中心的协议-->
     <dubbo:registry address="localhost:2181" protocol="zookeeper"/>

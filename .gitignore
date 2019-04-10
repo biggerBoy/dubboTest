@@ -4,5 +4,9 @@ serviceImp/target
 service/target
 out
 .idea
+.idea/
 .iml
 .log
+.settings
+.project
+.classpath

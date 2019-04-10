@@ -10,7 +10,7 @@
     <context:component-scan base-package="com.yya.controller"/>
     <!--找到注册中心，告诉他你想要什么服务-->
     <!--我是谁-->
-    <dubbo:application name="diaoyongzhe"/>
+    <dubbo:application name="dubbo-client"/>
     <!--找到注册中心-->
     <dubbo:registry address="localhost:2181" protocol="zookeeper" />
     <!--3告诉他你要什么-->
